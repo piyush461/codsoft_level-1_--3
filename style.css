@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: montserrat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(#9cebfc, #6ae1fb);
+}
+
+.head {
+  font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.center {
+  width: auto;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  background-color: white;
+}
+
+input[type="text"] {
+  height: 55px;
+  width: 290px;
+  margin-top: 40px;
+  border-radius: 15px;
+  border: 1px solid #e1e7ea;
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 20px;
+  background-color: white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+form .buttons {
+  width: 300px;
+  margin: 10px 25px 0 25px;
+  padding-top: 5px;
+}
+
+input[type="button"] {
+  width: 62px;
+  height: 55px;
+  margin: 5px;
+  font-size: 22px;
+  line-height: 55px;
+  border-radius: 10px;
+  border: white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+input[type="button"]:active {
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+input#clear {
+  border: #d20000;
+  background: #ff4e18;
+  color: white;
+}
+
+input#clear:active {
+  box-shadow: rgb(255, 118, 81) 3px 3px 6px 0px inset, rgb(161, 0, 0) -3px -3px 6px 1px inset;
+}
+
+input#equal {
+  width: 300px;
+  margin: 10px 0 10px 0;
+  font-size: 30px;
+  color: white;
+  background: #ff4e18;
+  border: 1px solid #b32a00;
+}
+
+input#equal:active {
+  box-shadow: rgb(255, 118, 81) 3px 3px 6px 0px inset, rgb(161, 0, 0) -3px -3px 6px 1px inset;
+}
